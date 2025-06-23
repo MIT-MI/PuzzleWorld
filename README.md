@@ -5,6 +5,8 @@
 
 PuzzleWorld is a benchmark of 667 real-world puzzlehunt–style problems designed to evaluate open-ended, multimodal reasoning capabilities of AI models. Curated from Puzzled Pint’s Creative Commons–licensed archives (2010–2025), each puzzle combines text, visual, and structured inputs with no explicitly stated instructions. Solvers must first infer the hidden problem structure from ambiguous clues and then execute a multi-step, creative reasoning chain to arrive at a short, canonical answer. Each puzzle is accompanied by detailed, human-annotated reasoning traces, labeled with required cognitive skills (e.g., logic, wordplay, cryptic decoding, spatial reasoning, knowledge, commonsense). PuzzleWorld also provides per-puzzle metadata (title, flavor text, difficulty, input modalities, skills, source URL) and associated puzzle images. 
 
+![PuzzleWorld Overview](figures/puzzleworld_overview.png)
+
 ## 📂 Dataset Access
 
 The full dataset is hosted on Hugging Face:
